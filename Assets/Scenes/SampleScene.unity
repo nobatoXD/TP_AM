@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -123,6 +123,25 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &11865812 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2899334932516009673, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+  m_PrefabInstance: {fileID: 1694012851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &11865816
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 11865812}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1138160742577138733, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
 --- !u!1 &30400006
 GameObject:
   m_ObjectHideFlags: 0
@@ -134,6 +153,7 @@ GameObject:
   - component: {fileID: 30400007}
   - component: {fileID: 30400009}
   - component: {fileID: 30400008}
+  - component: {fileID: 30400010}
   m_Layer: 0
   m_Name: CommandRoomChair.002 (7)
   m_TagString: Untagged
@@ -205,6 +225,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 30400006}
   m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!64 &30400010
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 30400006}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
 --- !u!1 &31584198
 GameObject:
   m_ObjectHideFlags: 0
@@ -216,6 +250,7 @@ GameObject:
   - component: {fileID: 31584199}
   - component: {fileID: 31584201}
   - component: {fileID: 31584200}
+  - component: {fileID: 31584202}
   m_Layer: 0
   m_Name: CommandRoomChair.010 (2)
   m_TagString: Untagged
@@ -287,6 +322,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 31584198}
   m_Mesh: {fileID: -4635864702185214902, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!64 &31584202
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 31584198}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4635864702185214902, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
 --- !u!1 &33773952
 GameObject:
   m_ObjectHideFlags: 0
@@ -298,6 +347,7 @@ GameObject:
   - component: {fileID: 33773953}
   - component: {fileID: 33773955}
   - component: {fileID: 33773954}
+  - component: {fileID: 33773956}
   m_Layer: 0
   m_Name: CommandRoomChair.002 (16)
   m_TagString: Untagged
@@ -369,6 +419,134 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 33773952}
   m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!64 &33773956
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33773952}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!1 &44733734 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1805277155632220883, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+  m_PrefabInstance: {fileID: 1694012851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &44733738
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44733734}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2848713044532775268, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!1 &79305774 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3199943224130321374, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+  m_PrefabInstance: {fileID: 1694012851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &79305778
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 79305774}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 586847616796833031, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!1 &88107279 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2445569895655562622, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+  m_PrefabInstance: {fileID: 1694012851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &88107283
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 88107279}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7004650277348446958, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!1 &107967694 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3646975638032841222, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+  m_PrefabInstance: {fileID: 1694012851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &107967698
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 107967694}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2267139801067393812, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!1 &156724136 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1882422984060255554, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+  m_PrefabInstance: {fileID: 1694012851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &156724140
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156724136}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6602213904616920518, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!1 &157217141 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -7030797412446394466, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+  m_PrefabInstance: {fileID: 1694012851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &157217145
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 157217141}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7415654624248784249, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
 --- !u!1 &197547434
 GameObject:
   m_ObjectHideFlags: 0
@@ -380,6 +558,7 @@ GameObject:
   - component: {fileID: 197547435}
   - component: {fileID: 197547437}
   - component: {fileID: 197547436}
+  - component: {fileID: 197547438}
   m_Layer: 0
   m_Name: CommandRoomChair.002 (11)
   m_TagString: Untagged
@@ -451,6 +630,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 197547434}
   m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!64 &197547438
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197547434}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
 --- !u!1 &212263212
 GameObject:
   m_ObjectHideFlags: 0
@@ -462,6 +655,7 @@ GameObject:
   - component: {fileID: 212263213}
   - component: {fileID: 212263215}
   - component: {fileID: 212263214}
+  - component: {fileID: 212263216}
   m_Layer: 0
   m_Name: CommandRoomChair.002 (21)
   m_TagString: Untagged
@@ -533,6 +727,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 212263212}
   m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!64 &212263216
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212263212}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
 --- !u!1 &217096367
 GameObject:
   m_ObjectHideFlags: 0
@@ -544,6 +752,7 @@ GameObject:
   - component: {fileID: 217096368}
   - component: {fileID: 217096370}
   - component: {fileID: 217096369}
+  - component: {fileID: 217096371}
   m_Layer: 0
   m_Name: CommandRoomChair.010 (1)
   m_TagString: Untagged
@@ -615,6 +824,58 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 217096367}
   m_Mesh: {fileID: -4635864702185214902, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!64 &217096371
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 217096367}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4635864702185214902, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!1 &232622687 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3637204988293594467, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+  m_PrefabInstance: {fileID: 1694012851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &232622691
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 232622687}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4484230172284365749, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!1 &279242639 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7125834243223341897, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+  m_PrefabInstance: {fileID: 1694012851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &279242643
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279242639}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -356925693751496080, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
 --- !u!1 &309840533
 GameObject:
   m_ObjectHideFlags: 0
@@ -626,6 +887,7 @@ GameObject:
   - component: {fileID: 309840534}
   - component: {fileID: 309840536}
   - component: {fileID: 309840535}
+  - component: {fileID: 309840537}
   m_Layer: 0
   m_Name: CommandRoomChair.002 (9)
   m_TagString: Untagged
@@ -697,6 +959,39 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 309840533}
   m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!64 &309840537
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 309840533}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!1 &346143482 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2831331655317358890, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+  m_PrefabInstance: {fileID: 1694012851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &346143486
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 346143482}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2600440753409324573, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
 --- !u!1 &393083797
 GameObject:
   m_ObjectHideFlags: 0
@@ -708,6 +1003,7 @@ GameObject:
   - component: {fileID: 393083798}
   - component: {fileID: 393083800}
   - component: {fileID: 393083799}
+  - component: {fileID: 393083801}
   m_Layer: 0
   m_Name: CommandRoomChair.002 (4)
   m_TagString: Untagged
@@ -779,6 +1075,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 393083797}
   m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!64 &393083801
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 393083797}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
 --- !u!1 &397654664
 GameObject:
   m_ObjectHideFlags: 0
@@ -790,6 +1100,7 @@ GameObject:
   - component: {fileID: 397654665}
   - component: {fileID: 397654667}
   - component: {fileID: 397654666}
+  - component: {fileID: 397654668}
   m_Layer: 0
   m_Name: CommandRoomChair.002 (23)
   m_TagString: Untagged
@@ -861,6 +1172,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 397654664}
   m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!64 &397654668
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397654664}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
 --- !u!1 &440413768
 GameObject:
   m_ObjectHideFlags: 0
@@ -872,6 +1197,7 @@ GameObject:
   - component: {fileID: 440413769}
   - component: {fileID: 440413771}
   - component: {fileID: 440413770}
+  - component: {fileID: 440413772}
   m_Layer: 0
   m_Name: CommandRoomChair.002 (15)
   m_TagString: Untagged
@@ -943,6 +1269,39 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 440413768}
   m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!64 &440413772
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 440413768}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!1 &480209144 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5040347858696861825, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+  m_PrefabInstance: {fileID: 1694012851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &480209148
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 480209144}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3724302627049495423, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
 --- !u!1 &484111227
 GameObject:
   m_ObjectHideFlags: 0
@@ -954,6 +1313,7 @@ GameObject:
   - component: {fileID: 484111228}
   - component: {fileID: 484111230}
   - component: {fileID: 484111229}
+  - component: {fileID: 484111231}
   m_Layer: 0
   m_Name: CommandRoomChair.002 (19)
   m_TagString: Untagged
@@ -1025,6 +1385,96 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 484111227}
   m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!64 &484111231
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 484111227}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!1 &505010978 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6244869203451250965, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+  m_PrefabInstance: {fileID: 1694012851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &505010982
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 505010978}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8867026153387694597, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!1 &546132092 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3543171905753708565, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+  m_PrefabInstance: {fileID: 1694012851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &546132096
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 546132092}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 967663969131694281, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!1 &598515116 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -7443668083146846337, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+  m_PrefabInstance: {fileID: 1694012851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &598515120
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598515116}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7866788201425850676, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!1 &641828689 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -4548349938153721775, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+  m_PrefabInstance: {fileID: 1694012851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &641828693
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 641828689}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2732234517871398949, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
 --- !u!1 &671043186
 GameObject:
   m_ObjectHideFlags: 0
@@ -1036,6 +1486,7 @@ GameObject:
   - component: {fileID: 671043187}
   - component: {fileID: 671043189}
   - component: {fileID: 671043188}
+  - component: {fileID: 671043190}
   m_Layer: 0
   m_Name: CommandRoomChair.002 (6)
   m_TagString: Untagged
@@ -1107,6 +1558,39 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 671043186}
   m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!64 &671043190
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 671043186}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!1 &686267719 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1314063758189737219, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+  m_PrefabInstance: {fileID: 1694012851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &686267723
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 686267719}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8381684736710184311, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1123,7 +1607,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &705507994
 Light:
   m_ObjectHideFlags: 0
@@ -1211,6 +1695,7 @@ GameObject:
   - component: {fileID: 715453096}
   - component: {fileID: 715453098}
   - component: {fileID: 715453097}
+  - component: {fileID: 715453099}
   m_Layer: 0
   m_Name: CommandRoomChair.010 (7)
   m_TagString: Untagged
@@ -1282,6 +1767,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 715453095}
   m_Mesh: {fileID: -4635864702185214902, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!64 &715453099
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 715453095}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4635864702185214902, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
 --- !u!1 &736715051
 GameObject:
   m_ObjectHideFlags: 0
@@ -1293,6 +1792,7 @@ GameObject:
   - component: {fileID: 736715052}
   - component: {fileID: 736715054}
   - component: {fileID: 736715053}
+  - component: {fileID: 736715055}
   m_Layer: 0
   m_Name: CommandRoomChair.002 (8)
   m_TagString: Untagged
@@ -1364,6 +1864,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 736715051}
   m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!64 &736715055
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 736715051}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
 --- !u!1 &786198958
 GameObject:
   m_ObjectHideFlags: 0
@@ -1375,6 +1889,7 @@ GameObject:
   - component: {fileID: 786198959}
   - component: {fileID: 786198961}
   - component: {fileID: 786198960}
+  - component: {fileID: 786198962}
   m_Layer: 0
   m_Name: CommandRoomChair.002 (26)
   m_TagString: Untagged
@@ -1446,6 +1961,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 786198958}
   m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!64 &786198962
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 786198958}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
 --- !u!1 &833387199
 GameObject:
   m_ObjectHideFlags: 0
@@ -1457,6 +1986,7 @@ GameObject:
   - component: {fileID: 833387200}
   - component: {fileID: 833387202}
   - component: {fileID: 833387201}
+  - component: {fileID: 833387203}
   m_Layer: 0
   m_Name: CommandRoomChair.010 (5)
   m_TagString: Untagged
@@ -1528,6 +2058,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 833387199}
   m_Mesh: {fileID: -4635864702185214902, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!64 &833387203
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833387199}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4635864702185214902, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
 --- !u!1 &943135686
 GameObject:
   m_ObjectHideFlags: 0
@@ -1539,6 +2083,7 @@ GameObject:
   - component: {fileID: 943135687}
   - component: {fileID: 943135689}
   - component: {fileID: 943135688}
+  - component: {fileID: 943135690}
   m_Layer: 0
   m_Name: CommandRoomChair.002 (22)
   m_TagString: Untagged
@@ -1610,6 +2155,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 943135686}
   m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!64 &943135690
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 943135686}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
 --- !u!1 &957118264
 GameObject:
   m_ObjectHideFlags: 0
@@ -1621,6 +2180,7 @@ GameObject:
   - component: {fileID: 957118265}
   - component: {fileID: 957118267}
   - component: {fileID: 957118266}
+  - component: {fileID: 957118268}
   m_Layer: 0
   m_Name: CommandRoomChair.001 (2)
   m_TagString: Untagged
@@ -1692,168 +2252,39 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 957118264}
   m_Mesh: {fileID: -8867026153387694597, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
---- !u!1 &963194225
+--- !u!64 &957118268
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 957118264}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8867026153387694597, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!1 &975410422 stripped
 GameObject:
+  m_CorrespondingSourceObject: {fileID: -7668639498927385554, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+  m_PrefabInstance: {fileID: 1694012851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &975410426
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 963194228}
-  - component: {fileID: 963194227}
-  - component: {fileID: 963194226}
-  - component: {fileID: 963194230}
-  - component: {fileID: 963194229}
-  m_Layer: 3
-  m_Name: Main Camera
-  m_TagString: MainCamera
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!81 &963194226
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963194225}
+  m_GameObject: {fileID: 975410422}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
   m_Enabled: 1
---- !u!20 &963194227
-Camera:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_projectionMatrixMode: 1
-  m_GateFitMode: 2
-  m_FOVAxisMode: 0
-  m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 50
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 0
-  orthographic size: 5
-  m_Depth: -1
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
---- !u!4 &963194228
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: -0, y: 0.94582826, z: -0, w: 0.3246675}
-  m_LocalPosition: {x: 862.67, y: 815.17, z: 382.63}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 142.109, z: 0}
---- !u!114 &963194229
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sharedProfile: {fileID: 11400000, guid: 35793cab8d0d0744d8a846bc05cd1a1f, type: 2}
-  isGlobal: 1
-  blendDistance: 0
-  weight: 1
-  priority: 0
---- !u!114 &963194230
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  volumeTrigger: {fileID: 963194228}
-  volumeLayer:
-    serializedVersion: 2
-    m_Bits: 8
-  stopNaNPropagation: 1
-  finalBlitToCameraTarget: 0
-  antialiasingMode: 0
-  temporalAntialiasing:
-    jitterSpread: 0.75
-    sharpness: 0.25
-    stationaryBlending: 0.95
-    motionBlending: 0.85
-  subpixelMorphologicalAntialiasing:
-    quality: 2
-  fastApproximateAntialiasing:
-    fastMode: 0
-    keepAlpha: 0
-  fog:
-    enabled: 1
-    excludeSkybox: 1
-  debugLayer:
-    lightMeter:
-      width: 512
-      height: 256
-      showCurves: 1
-    histogram:
-      width: 512
-      height: 256
-      channel: 3
-    waveform:
-      exposure: 0.12
-      height: 256
-    vectorscope:
-      size: 256
-      exposure: 0.12
-    overlaySettings:
-      linearDepth: 0
-      motionColorIntensity: 4
-      motionGridSize: 64
-      colorBlindnessType: 0
-      colorBlindnessStrength: 1
-  m_Resources: {fileID: 11400000, guid: d82512f9c8e5d4a4d938b575d47f88d4, type: 2}
-  m_ShowToolkit: 0
-  m_ShowCustomSorter: 0
-  breakBeforeColorGrading: 0
-  m_BeforeTransparentBundles: []
-  m_BeforeStackBundles: []
-  m_AfterStackBundles: []
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3392189562300374359, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
 --- !u!1 &991701331
 GameObject:
   m_ObjectHideFlags: 0
@@ -1865,6 +2296,7 @@ GameObject:
   - component: {fileID: 991701332}
   - component: {fileID: 991701334}
   - component: {fileID: 991701333}
+  - component: {fileID: 991701335}
   m_Layer: 0
   m_Name: CommandRoomChair.010 (6)
   m_TagString: Untagged
@@ -1936,6 +2368,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 991701331}
   m_Mesh: {fileID: -4635864702185214902, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!64 &991701335
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991701331}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4635864702185214902, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
 --- !u!1 &1013178826
 GameObject:
   m_ObjectHideFlags: 0
@@ -1947,6 +2393,7 @@ GameObject:
   - component: {fileID: 1013178827}
   - component: {fileID: 1013178829}
   - component: {fileID: 1013178828}
+  - component: {fileID: 1013178830}
   m_Layer: 0
   m_Name: CommandRoomChair.010 (3)
   m_TagString: Untagged
@@ -2018,6 +2465,77 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1013178826}
   m_Mesh: {fileID: -4635864702185214902, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!64 &1013178830
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1013178826}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4635864702185214902, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!1 &1041053094 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -966672351348500075, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+  m_PrefabInstance: {fileID: 1694012851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1041053098
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041053094}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8109294027697786918, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!1 &1058231209 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7534232512537119092, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+  m_PrefabInstance: {fileID: 1694012851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1058231213
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058231209}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6017497964904991924, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!1 &1076726882 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8728886892816422510, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+  m_PrefabInstance: {fileID: 1694012851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1076726886
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076726882}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3710563660300015593, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
 --- !u!1 &1113753683
 GameObject:
   m_ObjectHideFlags: 0
@@ -2029,6 +2547,7 @@ GameObject:
   - component: {fileID: 1113753684}
   - component: {fileID: 1113753686}
   - component: {fileID: 1113753685}
+  - component: {fileID: 1113753687}
   m_Layer: 0
   m_Name: CommandRoomChair.010 (8)
   m_TagString: Untagged
@@ -2100,6 +2619,58 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1113753683}
   m_Mesh: {fileID: -4635864702185214902, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!64 &1113753687
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1113753683}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4635864702185214902, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!1 &1169397057 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8063107211547069207, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+  m_PrefabInstance: {fileID: 1694012851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1169397061
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1169397057}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!1 &1201303981 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3133498875991405556, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+  m_PrefabInstance: {fileID: 1694012851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1201303985
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201303981}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3909233067320746374, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
 --- !u!1 &1206137629
 GameObject:
   m_ObjectHideFlags: 0
@@ -2111,6 +2682,7 @@ GameObject:
   - component: {fileID: 1206137630}
   - component: {fileID: 1206137632}
   - component: {fileID: 1206137631}
+  - component: {fileID: 1206137633}
   m_Layer: 0
   m_Name: CommandRoomChair.002 (1)
   m_TagString: Untagged
@@ -2182,6 +2754,168 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1206137629}
   m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!64 &1206137633
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1206137629}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!1 &1210760793 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6467329669184211383, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+  m_PrefabInstance: {fileID: 1694012851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1210760797
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1210760793}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1653329949080664001, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!1 &1211981496 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1264833946912854, guid: 2e62f5703e5f8d2488a5e1bc8433be41, type: 3}
+  m_PrefabInstance: {fileID: 1863949296}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1211981497 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4288335847994348, guid: 2e62f5703e5f8d2488a5e1bc8433be41, type: 3}
+  m_PrefabInstance: {fileID: 1863949296}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1211981501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1211981496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sharedProfile: {fileID: 11400000, guid: 35793cab8d0d0744d8a846bc05cd1a1f, type: 2}
+  isGlobal: 1
+  blendDistance: 0
+  weight: 1
+  priority: 0
+--- !u!114 &1211981502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1211981496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volumeTrigger: {fileID: 1211981497}
+  volumeLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  stopNaNPropagation: 0
+  finalBlitToCameraTarget: 0
+  antialiasingMode: 1
+  temporalAntialiasing:
+    jitterSpread: 0.75
+    sharpness: 0.25
+    stationaryBlending: 0.95
+    motionBlending: 0.85
+  subpixelMorphologicalAntialiasing:
+    quality: 2
+  fastApproximateAntialiasing:
+    fastMode: 0
+    keepAlpha: 0
+  fog:
+    enabled: 0
+    excludeSkybox: 1
+  debugLayer:
+    lightMeter:
+      width: 512
+      height: 256
+      showCurves: 1
+    histogram:
+      width: 512
+      height: 256
+      channel: 3
+    waveform:
+      exposure: 0.12
+      height: 256
+    vectorscope:
+      size: 256
+      exposure: 0.12
+    overlaySettings:
+      linearDepth: 0
+      motionColorIntensity: 4
+      motionGridSize: 64
+      colorBlindnessType: 0
+      colorBlindnessStrength: 1
+  m_Resources: {fileID: 11400000, guid: d82512f9c8e5d4a4d938b575d47f88d4, type: 2}
+  m_ShowToolkit: 0
+  m_ShowCustomSorter: 0
+  breakBeforeColorGrading: 0
+  m_BeforeTransparentBundles: []
+  m_BeforeStackBundles: []
+  m_AfterStackBundles: []
+--- !u!114 &1211981503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1211981496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: 0
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 1
+  m_Antialiasing: 1
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+--- !u!45 &1211981504
+Skybox:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1211981496}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 2100000, guid: f0d7930aa88d5684ba422d7da7fbd707, type: 2}
 --- !u!1 &1221353197
 GameObject:
   m_ObjectHideFlags: 0
@@ -2193,6 +2927,7 @@ GameObject:
   - component: {fileID: 1221353198}
   - component: {fileID: 1221353200}
   - component: {fileID: 1221353199}
+  - component: {fileID: 1221353201}
   m_Layer: 0
   m_Name: CommandRoomChair.002 (17)
   m_TagString: Untagged
@@ -2264,6 +2999,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1221353197}
   m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!64 &1221353201
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221353197}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
 --- !u!1 &1285957479
 GameObject:
   m_ObjectHideFlags: 0
@@ -2275,6 +3024,7 @@ GameObject:
   - component: {fileID: 1285957480}
   - component: {fileID: 1285957482}
   - component: {fileID: 1285957481}
+  - component: {fileID: 1285957483}
   m_Layer: 0
   m_Name: CommandRoomChair.002 (2)
   m_TagString: Untagged
@@ -2346,6 +3096,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1285957479}
   m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!64 &1285957483
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1285957479}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
 --- !u!1 &1302459632
 GameObject:
   m_ObjectHideFlags: 0
@@ -2410,6 +3174,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1360452397 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8405044453745800065, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+  m_PrefabInstance: {fileID: 1694012851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1360452401
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1360452397}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7573033420289697072, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
 --- !u!1 &1376786441
 GameObject:
   m_ObjectHideFlags: 0
@@ -2421,6 +3204,7 @@ GameObject:
   - component: {fileID: 1376786442}
   - component: {fileID: 1376786444}
   - component: {fileID: 1376786443}
+  - component: {fileID: 1376786445}
   m_Layer: 0
   m_Name: CommandRoomChair.002 (18)
   m_TagString: Untagged
@@ -2492,6 +3276,115 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1376786441}
   m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!64 &1376786445
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1376786441}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!1 &1397169472 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8391222552659086748, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+  m_PrefabInstance: {fileID: 1694012851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1397169476
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1397169472}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5495902117074765545, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!1 &1425644500 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5556619142134574861, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+  m_PrefabInstance: {fileID: 1694012851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1425644504
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1425644500}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1561903902192803923, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!1 &1425805107 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3023927588413716172, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+  m_PrefabInstance: {fileID: 1694012851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1425805111
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1425805107}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8261242759330672288, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!1 &1443385698 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4250862619683857080, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+  m_PrefabInstance: {fileID: 1694012851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1443385702
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1443385698}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8941539335593627700, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!1 &1443810929 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2688817514498368697, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+  m_PrefabInstance: {fileID: 1694012851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1443810933
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1443810929}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4635864702185214902, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
 --- !u!1 &1448225074
 GameObject:
   m_ObjectHideFlags: 0
@@ -2503,6 +3396,7 @@ GameObject:
   - component: {fileID: 1448225075}
   - component: {fileID: 1448225077}
   - component: {fileID: 1448225076}
+  - component: {fileID: 1448225078}
   m_Layer: 0
   m_Name: CommandRoomChair.010 (4)
   m_TagString: Untagged
@@ -2574,6 +3468,39 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1448225074}
   m_Mesh: {fileID: -4635864702185214902, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!64 &1448225078
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1448225074}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4635864702185214902, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!1 &1506792408 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5765740284093071820, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+  m_PrefabInstance: {fileID: 1694012851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1506792412
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506792408}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7193042191423871814, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
 --- !u!1 &1513789022
 GameObject:
   m_ObjectHideFlags: 0
@@ -2585,6 +3512,7 @@ GameObject:
   - component: {fileID: 1513789023}
   - component: {fileID: 1513789025}
   - component: {fileID: 1513789024}
+  - component: {fileID: 1513789026}
   m_Layer: 0
   m_Name: CommandRoomChair.002 (12)
   m_TagString: Untagged
@@ -2656,6 +3584,77 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1513789022}
   m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!64 &1513789026
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1513789022}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!1 &1524818313 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2592851207085736906, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+  m_PrefabInstance: {fileID: 1694012851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1524818317
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524818313}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -613200878065603006, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!1 &1525066984 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6911553794601525868, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+  m_PrefabInstance: {fileID: 1694012851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1525066988
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1525066984}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1365097765710265450, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!1 &1529671211 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -6893490734738613813, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+  m_PrefabInstance: {fileID: 1694012851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1529671215
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1529671211}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5756346823168912696, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
 --- !u!1 &1549186843
 GameObject:
   m_ObjectHideFlags: 0
@@ -2667,6 +3666,7 @@ GameObject:
   - component: {fileID: 1549186844}
   - component: {fileID: 1549186846}
   - component: {fileID: 1549186845}
+  - component: {fileID: 1549186847}
   m_Layer: 0
   m_Name: CommandRoomChair.002 (14)
   m_TagString: Untagged
@@ -2738,6 +3738,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1549186843}
   m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!64 &1549186847
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549186843}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
 --- !u!1 &1588391643
 GameObject:
   m_ObjectHideFlags: 0
@@ -2749,6 +3763,7 @@ GameObject:
   - component: {fileID: 1588391644}
   - component: {fileID: 1588391646}
   - component: {fileID: 1588391645}
+  - component: {fileID: 1588391647}
   m_Layer: 0
   m_Name: CommandRoomChair.002 (10)
   m_TagString: Untagged
@@ -2820,6 +3835,58 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1588391643}
   m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!64 &1588391647
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1588391643}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!1 &1626721860 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -7254956731199292684, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+  m_PrefabInstance: {fileID: 1694012851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1626721864
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1626721860}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6639294345644704546, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!1 &1684199356 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -7801629196728854548, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+  m_PrefabInstance: {fileID: 1694012851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1684199360
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1684199356}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6346734356922833106, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
 --- !u!1001 &1694012851
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2871,9 +3938,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2859109400176981367, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
       propertyPath: m_Name
       value: Base
+      objectReference: {fileID: 0}
+    - target: {fileID: 6862221435064771883, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
@@ -2882,6 +3957,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
   m_PrefabInstance: {fileID: 1694012851}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1738209496 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2355315712432538715, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+  m_PrefabInstance: {fileID: 1694012851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1738209500
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1738209496}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4931319807390872619, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!1 &1776265076 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7510833523074777229, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+  m_PrefabInstance: {fileID: 1694012851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1776265080
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1776265076}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -787569995395677768, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!1 &1777646497 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3166563488869809360, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+  m_PrefabInstance: {fileID: 1694012851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1777646501
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1777646497}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5868199538995007314, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
 --- !u!1 &1851092786
 GameObject:
   m_ObjectHideFlags: 0
@@ -2893,6 +4025,7 @@ GameObject:
   - component: {fileID: 1851092787}
   - component: {fileID: 1851092789}
   - component: {fileID: 1851092788}
+  - component: {fileID: 1851092790}
   m_Layer: 0
   m_Name: CommandRoomChair.002 (3)
   m_TagString: Untagged
@@ -2964,6 +4097,133 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1851092786}
   m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!64 &1851092790
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851092786}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!1001 &1863949296
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1264833946912854, guid: 2e62f5703e5f8d2488a5e1bc8433be41, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1743903104223250, guid: 2e62f5703e5f8d2488a5e1bc8433be41, type: 3}
+      propertyPath: m_Name
+      value: FirstPerson-AIO
+      objectReference: {fileID: 0}
+    - target: {fileID: 4288335847994348, guid: 2e62f5703e5f8d2488a5e1bc8433be41, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 4448068258976056, guid: 2e62f5703e5f8d2488a5e1bc8433be41, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4448068258976056, guid: 2e62f5703e5f8d2488a5e1bc8433be41, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4448068258976056, guid: 2e62f5703e5f8d2488a5e1bc8433be41, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 856.0773
+      objectReference: {fileID: 0}
+    - target: {fileID: 4448068258976056, guid: 2e62f5703e5f8d2488a5e1bc8433be41, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 814.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 4448068258976056, guid: 2e62f5703e5f8d2488a5e1bc8433be41, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 386.57666
+      objectReference: {fileID: 0}
+    - target: {fileID: 4448068258976056, guid: 2e62f5703e5f8d2488a5e1bc8433be41, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.47214344
+      objectReference: {fileID: 0}
+    - target: {fileID: 4448068258976056, guid: 2e62f5703e5f8d2488a5e1bc8433be41, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4448068258976056, guid: 2e62f5703e5f8d2488a5e1bc8433be41, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.8815217
+      objectReference: {fileID: 0}
+    - target: {fileID: 4448068258976056, guid: 2e62f5703e5f8d2488a5e1bc8433be41, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4448068258976056, guid: 2e62f5703e5f8d2488a5e1bc8433be41, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4448068258976056, guid: 2e62f5703e5f8d2488a5e1bc8433be41, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -236.347
+      objectReference: {fileID: 0}
+    - target: {fileID: 4448068258976056, guid: 2e62f5703e5f8d2488a5e1bc8433be41, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20724644957976244, guid: 2e62f5703e5f8d2488a5e1bc8433be41, type: 3}
+      propertyPath: m_AllowMSAA
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 20724644957976244, guid: 2e62f5703e5f8d2488a5e1bc8433be41, type: 3}
+      propertyPath: m_ClearFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 20724644957976244, guid: 2e62f5703e5f8d2488a5e1bc8433be41, type: 3}
+      propertyPath: field of view
+      value: 63.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 20724644957976244, guid: 2e62f5703e5f8d2488a5e1bc8433be41, type: 3}
+      propertyPath: m_OcclusionCulling
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 20724644957976244, guid: 2e62f5703e5f8d2488a5e1bc8433be41, type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0.19215688
+      objectReference: {fileID: 0}
+    - target: {fileID: 20724644957976244, guid: 2e62f5703e5f8d2488a5e1bc8433be41, type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0.2033153
+      objectReference: {fileID: 0}
+    - target: {fileID: 20724644957976244, guid: 2e62f5703e5f8d2488a5e1bc8433be41, type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0.4745098
+      objectReference: {fileID: 0}
+    - target: {fileID: 82712217391461128, guid: 2e62f5703e5f8d2488a5e1bc8433be41, type: 3}
+      propertyPath: MinDistance
+      value: 1.6409912
+      objectReference: {fileID: 0}
+    - target: {fileID: 114051214696948948, guid: 2e62f5703e5f8d2488a5e1bc8433be41, type: 3}
+      propertyPath: jumpPower
+      value: 6.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 114051214696948948, guid: 2e62f5703e5f8d2488a5e1bc8433be41, type: 3}
+      propertyPath: useStamina
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114051214696948948, guid: 2e62f5703e5f8d2488a5e1bc8433be41, type: 3}
+      propertyPath: advanced.maxSlopeAngle
+      value: 55
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2e62f5703e5f8d2488a5e1bc8433be41, type: 3}
 --- !u!1 &1896143414
 GameObject:
   m_ObjectHideFlags: 0
@@ -2975,6 +4235,7 @@ GameObject:
   - component: {fileID: 1896143415}
   - component: {fileID: 1896143417}
   - component: {fileID: 1896143416}
+  - component: {fileID: 1896143418}
   m_Layer: 0
   m_Name: CommandRoomChair.002 (5)
   m_TagString: Untagged
@@ -3046,6 +4307,58 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1896143414}
   m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!64 &1896143418
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896143414}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!1 &1931054966 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6982865463185473756, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+  m_PrefabInstance: {fileID: 1694012851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1931054970
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1931054966}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3917338572440672911, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!1 &1976829733 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -4095967171539611158, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+  m_PrefabInstance: {fileID: 1694012851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1976829737
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976829733}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1634346713916702536, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
 --- !u!1 &2050800955
 GameObject:
   m_ObjectHideFlags: 0
@@ -3057,6 +4370,7 @@ GameObject:
   - component: {fileID: 2050800956}
   - component: {fileID: 2050800958}
   - component: {fileID: 2050800957}
+  - component: {fileID: 2050800959}
   m_Layer: 0
   m_Name: CommandRoomChair.002 (20)
   m_TagString: Untagged
@@ -3128,6 +4442,58 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2050800955}
   m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!64 &2050800959
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2050800955}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!1 &2064640759 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -7814008225642325849, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+  m_PrefabInstance: {fileID: 1694012851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &2064640763
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2064640759}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1779756295479113400, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!1 &2068921709 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -5278431823871463864, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+  m_PrefabInstance: {fileID: 1694012851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &2068921713
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068921709}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 142629028853336141, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
 --- !u!1 &2072760734
 GameObject:
   m_ObjectHideFlags: 0
@@ -3139,6 +4505,7 @@ GameObject:
   - component: {fileID: 2072760735}
   - component: {fileID: 2072760737}
   - component: {fileID: 2072760736}
+  - component: {fileID: 2072760738}
   m_Layer: 0
   m_Name: CommandRoomChair.002 (25)
   m_TagString: Untagged
@@ -3210,6 +4577,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2072760734}
   m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!64 &2072760738
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2072760734}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
 --- !u!1 &2072981051
 GameObject:
   m_ObjectHideFlags: 0
@@ -3221,6 +4602,7 @@ GameObject:
   - component: {fileID: 2072981052}
   - component: {fileID: 2072981054}
   - component: {fileID: 2072981053}
+  - component: {fileID: 2072981055}
   m_Layer: 0
   m_Name: CommandRoomChair.001 (1)
   m_TagString: Untagged
@@ -3292,6 +4674,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2072981051}
   m_Mesh: {fileID: -8867026153387694597, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!64 &2072981055
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2072981051}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8867026153387694597, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
 --- !u!1 &2117856481
 GameObject:
   m_ObjectHideFlags: 0
@@ -3303,6 +4699,7 @@ GameObject:
   - component: {fileID: 2117856482}
   - component: {fileID: 2117856484}
   - component: {fileID: 2117856483}
+  - component: {fileID: 2117856485}
   m_Layer: 0
   m_Name: CommandRoomChair.002 (13)
   m_TagString: Untagged
@@ -3374,6 +4771,58 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2117856481}
   m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!64 &2117856485
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2117856481}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!1 &2119337122 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -6166591628257667389, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+  m_PrefabInstance: {fileID: 1694012851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &2119337126
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2119337122}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4126309310201258463, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!1 &2129175394 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7697656965146152679, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+  m_PrefabInstance: {fileID: 1694012851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &2129175398
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129175394}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7966592091268404495, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
 --- !u!1 &2143202687
 GameObject:
   m_ObjectHideFlags: 0
@@ -3385,6 +4834,7 @@ GameObject:
   - component: {fileID: 2143202688}
   - component: {fileID: 2143202690}
   - component: {fileID: 2143202689}
+  - component: {fileID: 2143202691}
   m_Layer: 0
   m_Name: CommandRoomChair.002 (24)
   m_TagString: Untagged
@@ -3455,4 +4905,18 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2143202687}
+  m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
+--- !u!64 &2143202691
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2143202687}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 8686700160862215319, guid: 5462f27e148b0c5498b23fb29c4ec1d0, type: 3}
