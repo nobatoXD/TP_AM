@@ -29,8 +29,6 @@ public class UITransitionManeger : MonoBehaviour
         currectCamera.Priority--;
         currectCamera = target;
         currectCamera.Priority++;
-
-        CheckIfCamIsPlay(target, currectCamera);
     }
     public void CheckIfCamIsPlay(CinemachineVirtualCamera target, CinemachineVirtualCamera current)
     {
@@ -46,6 +44,10 @@ public class UITransitionManeger : MonoBehaviour
     private void PlayGame()
     {     
         if (startTimer) timer += Time.deltaTime;
+
+        CheckIfCamIsPlay(target, currectCamera);
+
+        Debug.Log(startTimer);
 
         if (startTimer && timer >= camTravelTime)
         {

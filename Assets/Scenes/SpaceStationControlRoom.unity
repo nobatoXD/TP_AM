@@ -4812,7 +4812,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1303170449}
   - component: {fileID: 1303170448}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: PostProcessing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4828,14 +4828,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1303170447}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sharedProfile: {fileID: 11400000, guid: 35793cab8d0d0744d8a846bc05cd1a1f, type: 2}
   isGlobal: 1
+  priority: 0
   blendDistance: 0
   weight: 1
-  priority: 0
+  sharedProfile: {fileID: 11400000, guid: db0052641f98c4b4dbb2fe1d7ce53081, type: 2}
 --- !u!4 &1303170449
 Transform:
   m_ObjectHideFlags: 0
@@ -6324,7 +6324,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1264833946912854, guid: 2e62f5703e5f8d2488a5e1bc8433be41, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1743903104223250, guid: 2e62f5703e5f8d2488a5e1bc8433be41, type: 3}
       propertyPath: m_Name
