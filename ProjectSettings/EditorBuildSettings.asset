@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 3d5958bb268d9f040b5ac2310283b94c
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/SpaceStationControlRoom.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}
