@@ -21,19 +21,12 @@ public class MoveChest : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (isTriggering)
-        {
-            if (Input.GetKeyDown(KeyCode.E))
-            {
-                if (isChestMoving)
-                    isChestMoving = false;
-                else
-                    isChestMoving = true;
-            }
-        }
+        
 
         if (isChestMoving)
         {
+            
+
             Vector3 mousePosition = camera.ScreenToWorldPoint(Input.mousePosition);
 
             rg.freezeRotation = true;
@@ -41,6 +34,8 @@ public class MoveChest : MonoBehaviour
             //camera.look
             chestTransform.position = new Vector3(mousePosition.x + camera.transform.forward.x * 5f, mousePosition.y + camera.transform.forward.y * 5f, mousePosition.z + camera.transform.forward.z * 5f);
 
+            if (Input.GetMouseButtonDown(0))
+                isChestMoving = false;
         }
         else
         {
@@ -49,14 +44,10 @@ public class MoveChest : MonoBehaviour
 
     }
 
-    private void OnTriggerEnter(Collider other)
+    public void Activate()
     {
-        Debug.Log("Triggered");
-        isTriggering = true;
+        Debug.Log("ACtivate");
+
+        isChestMoving = true;
     }
-    //private void OnTriggerExit(Collider other)
-    //{
-    //    Debug.Log("No longer triggered");
-    //    isTriggering = false;
-    //}
 }
