@@ -40,7 +40,7 @@ public class Player : MonoBehaviour
                 }
                 else if (obj.name == cameraRayHit.collider.name && obj.tag == "Fan Machine")
                 {
-
+                    obj.GetComponent<Fan>().Activate_DeActivate();
                 }
                 else if (obj.name == cameraRayHit.collider.name && obj.tag == "Chairs")
                 {
